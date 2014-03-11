@@ -1,0 +1,9 @@
+#!/bin/sh
+
+virtualenv python
+python/bin/pip install -U setuptools
+mkdir var var/downloads
+mkdir src src/distlib
+curl http://python-distribute.org/bootstrap.py | python/bin/python
+
+bin/buildout
