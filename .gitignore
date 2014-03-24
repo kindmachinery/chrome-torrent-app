@@ -1,0 +1,9 @@
+*.pyc
+# don't include third-party dependencies.
+app/distlib
+python
+bin
+var
+eggs
+.DS_Store
+.installed.cfg
